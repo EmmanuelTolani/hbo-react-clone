@@ -1,0 +1,36 @@
+.cast-info {
+    padding: 50px;
+    color: white;
+
+    &__group-title {
+        font-weight: 700;
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+    }
+
+    &__list {
+        font-size: 1.2rem;
+    }
+
+    &__crew {
+        display: flex;
+        margin-bottom: 0.9rem;
+
+        li:nth-child(1) {
+            margin-right: 100px;
+            color: rgb(153, 153, 153);
+            width: 200px;
+        }
+
+        li:nth-child(2) {
+            margin-right: 100px;
+            color: rgb(200, 200, 200);
+
+        }
+    }
+}
