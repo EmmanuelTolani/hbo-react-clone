@@ -1,7 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
+import { useStateContext } from "../components/HBOProvider";
 
 export default function Home() {
+  const globalState = useStateContext();
+
   return (
     <div>
       <div className="login-user">
@@ -15,7 +17,7 @@ export default function Home() {
               className="login-user__user-img"
               src="https://images.unsplash.com/photo-1476900966873-ab290e38e3f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=fe0976a79ece0ee8effca4cab4527ae2"
             />
-            <div className="login-user__user-name">Paul</div>
+            <div className="login-user__user-name">{globalState.test}</div>
           </div>
         </div>
         <div className="login-user__buttons">
