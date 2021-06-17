@@ -1,8 +1,47 @@
 import Head from "next/head";
 import { useStateContext } from "../components/HBOProvider";
+import ls from "local-storage";
+import { v4 } from "uuid";
+import { useRouter } from "next/router";
 
 export default function CreateUser() {
   const globalState = useStateContext();
+
+  const Router = useRouter();
+  const saveUser = () => {
+    let users = [], // initialize the array for all the future users
+      user; // initialize user variable
+
+    if (ls("users") < 1) {
+      // if local storage users array is less than 1 item create the user array
+      //user {
+      // id: unique key with uuid ,
+      // user: keyboard value of user name,
+      //future list of movies user wants to watch later
+      //}
+      user = {
+        id: v4(),
+        user: globalState.user,
+        myListID: [],
+      };
+      users.push(user);
+      ls("users", users);
+      Router.push("/login");
+      console.log("users:", users);
+      console.log("lsusers", ls("users"));
+    } else {
+      users = ls("users");
+      user = {
+        id: v4(),
+        user: globalState.user,
+        myListID: [],
+      };
+      users.push(user);
+      ls("users", users);
+      Router.push("/login"); // send the user to the login route
+    }
+  };
+  ls("name", "joe");
   console.log(globalState);
   return (
     <div>
@@ -14,7 +53,7 @@ export default function CreateUser() {
         <div className="create-user__form">
           <img
             className="create-user__user-img"
-            src={globalState.defaulUserImg}
+            src={globalState.defaultUserImg}
           />
           <div className="create-user__input-group">
             <label>Name</label>
@@ -70,7 +109,9 @@ export default function CreateUser() {
         </div>
         <div className="create-user__buttons">
           <button className="create-user__cancel">Cancel</button>
-          <button className="create-user__save">Save</button>
+          <button className="create-user__save" onClick={saveUser}>
+            Save
+          </button>
         </div>
       </div>
     </div>
