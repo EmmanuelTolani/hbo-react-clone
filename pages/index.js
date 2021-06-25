@@ -15,14 +15,21 @@ export default function Home() {
   useEffect(() => {}, []);
   return AuthCheck(
     <MainLayout>
-      <FeaturedMedia />
+      <FeaturedMedia
+        mediaUrl="https://www.youtube.com/embed/NYH2sLid0Zc?autoplay=1&loop=1&start=16&mute=1&playlist=NYH2sLid0Zc"
+        title="Mortal Kombat"
+        location="In theaters and on HBO MAX. Streaming throught May 26."
+        linkUrl="/movie/460465"
+        type="front"
+      />
       <LazyLoad
-        offset={-680}
+        offset={-400}
         placeholder={<Placeholders title="Popular Movies" type="large-v" />}
       >
         <MediaRow
           title="Popular Movies"
           type="large-v"
+          mediaType="movie"
           endpoint="discover/movie?sort_by=popularity.desc&primary_release_year=2021"
         />
       </LazyLoad>
@@ -32,6 +39,7 @@ export default function Home() {
       >
         <MediaRow
           title="New Series"
+          mediaType="series"
           type="large-h"
           endpoint="discover/tv?primary_release_year=2021"
         />
@@ -43,6 +51,7 @@ export default function Home() {
         <MediaRow
           title="Action"
           type="small-v"
+          mediaType="movie"
           endpoint="discover/movie?with_genres=28&primary_release_year=2021"
         />
       </LazyLoad>
@@ -53,6 +62,7 @@ export default function Home() {
         <MediaRow
           title="Horror"
           type="small-v"
+          mediaType="movie"
           endpoint="discover/movie?with_genres=27&primary_release_year=2021"
         />
       </LazyLoad>
@@ -63,6 +73,7 @@ export default function Home() {
         <MediaRow
           title="Cartoons & Anime "
           type="large-v"
+          mediaType="movie"
           endpoint="discover/movie?with_genres=16&primary_release_year=2021"
         />
       </LazyLoad>
@@ -73,6 +84,7 @@ export default function Home() {
         <MediaRow
           title="Romance"
           type="large-v"
+          mediaType="movie"
           endpoint="discover/movie?with_genres=10749&primary_release_year=2021"
         />
       </LazyLoad>
@@ -83,6 +95,7 @@ export default function Home() {
         <MediaRow
           title="Sci-fi"
           type="small-v"
+          mediaType="movie"
           endpoint="discover/movie?with_genres=878&primary_release_year=2021"
         />
       </LazyLoad>

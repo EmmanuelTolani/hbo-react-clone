@@ -8,6 +8,7 @@
 @use "../components/UI/Account/account";
 @use "../components/UI/SearchModal/search-modal";
 @use "../components/UI/MediaRow/media-row";
+@use "../components/UI/GenreNav/genre-nav";
 
 
 h1 {
@@ -17,4 +18,8 @@ h1 {
 html,
 body {
   background: black;
+}
+
+.hide-comp {
+  display: none;
 }

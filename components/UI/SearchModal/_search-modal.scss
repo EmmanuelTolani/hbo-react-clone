@@ -10,7 +10,7 @@
     visibility: hidden;
     transition: opacity .4s ease-in-out;
     z-index: 13;
-
+    overflow: auto;
 
     &--active {
         opacity: 1;
@@ -30,6 +30,7 @@
         border: none;
         border-bottom: 2px solid rgb(132, 0, 255);
         outline: none;
+        color: white;
     }
 
     &__close-btn {
