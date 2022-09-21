@@ -1,0 +1,14 @@
+.card{
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+    background: white;
+}
+.card__img{
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+.card__title{
+    font-size: 1.3rem;
+    font-weight: 700;
+}

@@ -35,49 +35,57 @@
         justify-content: center;
         align-items: center;
     }
-    &__input-group{
+
+    &__input-group {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        label{
+
+        label {
             font-size: 0.8rem;
             color: white;
             margin-bottom: 1rem;
         }
     }
-    &__inputText{
+
+    &__inputText {
         border: none;
         border-bottom: 1px solid rgb(132, 0, 255);
         background: transparent;
         width: 300px;
-         padding: 10px 0;
-         outline: none;
-         margin-bottom: 2rem;
-         color: white;
-         font-size: 1.5rem;
+        padding: 10px 0;
+        outline: none;
+        margin-bottom: 2rem;
+        color: white;
+        font-size: 1.5rem;
     }
-     &__colors {
-         display: flex;
-         justify-content: space-between;
-     }
-    &__color{
+
+    &__colors {
         display: flex;
         justify-content: space-between;
     }
-        &__color{
-            border-radius: 50%;
-            height: 30px;
-            width: 30px; 
-            cursor: pointer;
-            transition: transform .4s ease-in-out;
-            &--active{
-                border: 3px solid white;
-            }
-            &:hover{
-                transform: scale(1.5)
-            }
+
+    &__color {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__color {
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        transition: transform .4s ease-in-out;
+
+        &--active {
+            border: 3px solid white;
         }
-    
+
+        &:hover {
+            transform: scale(1.5)
+        }
+    }
+
     &__user-img {
         width: 125px;
         height: 125px;
@@ -86,9 +94,9 @@
         margin-right: 3rem;
         border: 3px solid rgb(132, 0, 255);
         object-fit: cover;
-        object-position: center; 
+        object-position: center;
     }
-    
+
 
     &__user-name {
         color: white;
@@ -124,5 +132,15 @@
 
     &__save {
         opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .create-user {
+        flex-direction: column;
+
+        &__user-img {
+            margin-right: 0;
+        }
     }
 }

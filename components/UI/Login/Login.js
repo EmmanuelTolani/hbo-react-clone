@@ -58,7 +58,7 @@ const Login = () => {
       </div>
       <div className="login-user__form">{hasMounted ? showUsers() : ""}</div>
       <div className="login-user__buttons">
-        {/* <button className="login-user__adult">Create User</button> */}
+        <button className="login-user__adult">Create User</button>
         <button className="login-user__kid" onClick={createUser}>
           Create User
         </button>

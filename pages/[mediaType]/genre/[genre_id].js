@@ -49,9 +49,10 @@ export default function MediaTypePage(props) {
             ? props.featuredData.title
             : props.featuredData.name
         }
-        location="In theaters and on HBO MAX. Streaming throught May 26."
         linkUrl={`/${props.query.mediaType}/${props.featuredData.id}`}
         type="single"
+        mediaType={props.query.mediaType}
+        mediaId={props.query.id}
       />
       <GenreNav
         mediaType={props.query.mediaType}
