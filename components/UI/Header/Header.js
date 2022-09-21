@@ -3,11 +3,16 @@ import SearchModal from "../SearchModal/SearchModal.js";
 import { useStateContext } from "../../HBOProvider.js";
 import Link from "next/link";
 import ls from "local-storage";
+import { useEffect, useState } from "react";
 {
   //The UI section for the header
 }
 const Header = (props) => {
   const globalState = useStateContext();
+  // const [user, setUserName] = useState("");
+  // console.log(user);
+  // setUserName(globalState.user);
+  // console.log(user);
   return (
     <header
       //   HBO provider takes the hooks that control whether the accountModal , sideNav , and a search bar is open
@@ -55,7 +60,7 @@ const Header = (props) => {
           src="https://images.unsplash.com/photo-1476900966873-ab290e38e3f7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=fe0976a79ece0ee8effca4cab4527ae2"
           alt=""
         />
-        <div className="top-header__user-name">Hi {globalState.user}</div>
+        <div className="top-header__user-name"></div>
       </div>
       <Account />
       <SearchModal />

@@ -41,8 +41,6 @@ export default function CreateUser() {
       Router.push("/login"); // send the user to the login route
     }
   };
-  ls("name", "joe");
-  console.log(globalState);
   return (
     <div className="create-user">
       <div className="create-user__top">
