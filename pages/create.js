@@ -41,6 +41,9 @@ export default function CreateUser() {
       Router.push("/login"); // send the user to the login route
     }
   };
+  const restart = () => {
+    location.reload();
+  };
   return (
     <div className="create-user">
       <div className="create-user__top">
@@ -106,7 +109,9 @@ export default function CreateUser() {
         </div>
       </div>
       <div className="create-user__buttons">
-        <button className="create-user__cancel">Cancel</button>
+        <button className="create-user__cancel" onClick={restart}>
+          Cancel
+        </button>
         <button className="create-user__save" onClick={saveUser}>
           Save
         </button>
