@@ -58,6 +58,7 @@ export default function CreateUser() {
             value={globalState.user}
             onChange={globalState.createUserAction}
             type="text"
+            placeholder="Enter your name"
             className="create-user__inputText"
           />
           <div className="create-user__colors">

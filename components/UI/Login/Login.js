@@ -59,7 +59,7 @@ const Login = () => {
       <div className="login-user__form">{hasMounted ? showUsers() : ""}</div>
       <div className="login-user__buttons">
         <button className="login-user__adult" onClick={createUser}>
-          Create User
+          Create New User
         </button>
       </div>
     </div>
