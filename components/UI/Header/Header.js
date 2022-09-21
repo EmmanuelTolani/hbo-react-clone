@@ -1,6 +1,7 @@
 import Account from "../Account/Account.js";
 import SearchModal from "../SearchModal/SearchModal.js";
 import { useStateContext } from "../../HBOProvider.js";
+import Link from "next/link";
 import ls from "local-storage";
 {
   //The UI section for the header
