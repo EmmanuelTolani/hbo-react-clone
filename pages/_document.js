@@ -18,9 +18,9 @@ class MyDocument extends Document {
           />
           <link rel="stylesheet" href="/fontaw/css/all.min.css" />
         </Head>
-        <body>
-          <Main />
-          <NextScript />
+        <body className="movie">
+          <Main></Main>
+          <NextScript></NextScript>
         </body>
       </Html>
     );
