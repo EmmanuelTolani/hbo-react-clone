@@ -9,18 +9,18 @@ Data for all the movies: https://api.themoviedb.org/
 * yarn or npm install installs all dependencies
 * yarn dev or npm run dev starts the server You should be able to access the app through http://localhost:3000
 
-### Demo 
+## Demo 
 
 
-#### How to navigate this project
+## How to navigate this project
 * [Layout](../../tree/main/components/Layouts)
 * [UI components with Logic and styles](../../tree/main/components/UI)
 * [GlobalState to provide logic for the whole application](../../tree/main/components/HBOProvider.js)
 * [Slug Url implementation](../../tree/main/pages/[mediaType])
   
-##### Why I built this project this way 
+## Why I built this project this way 
 * I decided to create the app with Next.js because of it's routing, fast refresh, and static file serving.
 
-###### If i had more time I would change
+## If i had more time I would change
 
 
