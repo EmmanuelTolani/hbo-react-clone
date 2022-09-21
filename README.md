@@ -15,7 +15,7 @@ Data for all the movies: https://api.themoviedb.org/
 #### How to navigate this project
 * [Layout](../../tree/main/components/Layouts)
 * [UI components with Logic and styles](../../tree/main/components/UI)
-* [GlobalState to provide logic for the whole application](../../tree/main/components/HBOProvider)
+* [GlobalState to provide logic for the whole application](../../tree/main/components/HBOProvider.js)
 * [Slug Url implementation](../../tree/main/pages/[mediaType])
   
 ##### Why I built this project this way 
