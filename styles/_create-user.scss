@@ -32,6 +32,12 @@
         font-weight: 300;
     }
 
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     &__form {
         display: flex;
         justify-content: center;
