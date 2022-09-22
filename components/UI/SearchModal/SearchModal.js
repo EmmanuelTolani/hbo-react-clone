@@ -18,9 +18,9 @@ const SearchModal = (props) => {
       );
       setPopData(popData.data.results.filter((item, i) => i < 14));
       setShowResults(false);
-      console.log("popdata", popData.data.results);
+      // console.log("popdata", popData.data.results);
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   }, []);
 
@@ -37,7 +37,7 @@ const SearchModal = (props) => {
       );
       setShowResults(true);
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   };
   const clickedThumbnail = (type, id, media_type) => {
@@ -50,7 +50,7 @@ const SearchModal = (props) => {
       globalState.setSearchOpenAction(!globalState.searchOpen);
     }
 
-    console.log("send user to the media page" + props.mediaUrl);
+    // console.log("send user to the media page" + props.mediaUrl);
   };
   useEffect(() => {
     if (globalState.searchOpen) {

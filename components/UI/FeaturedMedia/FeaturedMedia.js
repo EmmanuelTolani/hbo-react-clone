@@ -6,7 +6,7 @@ const FeaturedMedia = (props) => {
   const router = useRouter();
   const clickedPlay = () => {
     router.push(props.linkUrl);
-    console.log("send user to media page" + props.mediaUrl);
+    // console.log("send user to media page" + props.mediaUrl);
   };
   const clickedAdd = (props) => {
     globalState.addToList({
@@ -14,7 +14,7 @@ const FeaturedMedia = (props) => {
       mediaType: props.mediaType,
       mediaUrl: props.mediaUrl,
     });
-    console.log("clicked to add movie");
+    // console.log("clicked to add movie");
   };
 
   const showMedia = () => {

@@ -73,13 +73,13 @@ export async function getServerSideProps(context) {
     featuredData = await axios.get(
       `https://api.themoviedb.org/3/discover/${context.query.mediaType}?primary_release_year=2021&with_genres=${context.query.genre_id}&api_key=770162f1bd0b953990d3f8e5f3632668&language=en-US`
     );
-    console.log("Genres Data");
-    console.log(genresData.data);
+    // console.log("Genres Data");
+    // console.log(genresData.data);
   } catch (error) {
-    console.log(error);
-    console.log(error);
+    // console.log(error);
+    // console.log(error);
   }
-  console.log(genresData);
+  // console.log(genresData);
   return {
     props: {
       genresData: genresData.data.genres,

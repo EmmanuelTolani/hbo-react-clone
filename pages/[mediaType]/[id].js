@@ -14,22 +14,22 @@ export default function SingleMediaPage(props) {
   const router = useRouter();
   const [mediaData, setMediaData] = useState(false);
   console.log(props);
-  // useEffect(() => {
-  //   axios
-  //     .get(
-  //       `https://api.themoviedb.org/3/movie/${props.query.id}?api_key=770162f1bd0b953990d3f8e5f3632668&language=en-US`
-  //     )
-  //     .then(function (response) {
-  //       setMediaData(response.data);
-  //       // handle success
-  //       console.log(response);
-  //     })
-  //     .catch(function (error) {
-  //       // handle error
-  //       console.log("Error Response for ");
-  //       console.log(error);
-  //     });
-  // }, [mediaData]);
+  useEffect(() => {
+    axios
+      .get(
+        `https://api.themoviedb.org/3/movie/${props.query.id}?api_key=770162f1bd0b953990d3f8e5f3632668&language=en-US`
+      )
+      .then(function (response) {
+        setMediaData(response.data);
+        // handle success
+        // console.log(response);
+      })
+      .catch(function (error) {
+        // handle error
+        // console.log("Error Response for ");
+        // console.log(error);
+      });
+  }, [mediaData]);
   // console.log(router.query);
 
   return AuthCheck(
@@ -77,7 +77,7 @@ export async function getServerSideProps(context) {
       `https://api.themoviedb.org/3/${context.query.mediaType}/${context.query.id}?api_key=770162f1bd0b953990d3f8e5f3632668&language=en-US`
     );
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
   return {
     props: { mediaData: mediaData.data, query: context.query }, // will be passed to the page component as props

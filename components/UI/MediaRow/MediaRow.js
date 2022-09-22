@@ -14,16 +14,16 @@ const MediaRow = (props) => {
       .then(function (response) {
         setMoviesData(shuffleArray(response.data.results));
         setLoadingData(false);
-        console.log("the movies");
-        console.log(movies);
+        // console.log("the movies");
+        // console.log(movies);
         // handle success
-        console.log("Success Response for " + props.title);
-        console.log(response);
+        // console.log("Success Response for " + props.title);
+        // console.log(response);
       })
       .catch(function (error) {
         // handle error
-        console.log("Error Response for " + props.title);
-        console.log(error);
+        // console.log("Error Response for " + props.title);
+        // console.log(error);
       });
   }, [props.updateData]);
   const loopComp = (comp, digit) => {

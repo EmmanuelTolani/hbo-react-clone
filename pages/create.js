@@ -28,8 +28,8 @@ export default function CreateUser() {
       users.push(user);
       ls("users", users);
       Router.push("/login");
-      console.log("users:", users);
-      console.log("lsusers", ls("users"));
+      // console.log("users:", users);
+      // console.log("lsusers", ls("users"));
     } else {
       users = ls("users");
       user = {

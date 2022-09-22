@@ -18,13 +18,13 @@ const CastInfo = (props) => {
         setCredits(response.data);
         setLoadingData(false);
         // handle success
-        console.log("Success Response for cast and crew");
-        console.log(response);
+        // console.log("Success Response for cast and crew");
+        // console.log(response);
       })
       .catch(function (error) {
         // handle error
-        console.log("Error Response for cast and crew");
-        console.log(error);
+        // console.log("Error Response for cast and crew");
+        // console.log(error);
       });
   }, [props.updateData]);
   const showCast = () => {
