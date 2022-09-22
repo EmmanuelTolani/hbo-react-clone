@@ -11,11 +11,11 @@ Data for all the movies: https://api.themoviedb.org/
 
 # Demo 
 ![Create](gifs/create.gif)
-![alt text](../../tree/main/public/gifs/castcrew.gif?raw=true)
-![alt text](../../tree/main/public/gifs/watchlist.gif)
-![alt text](../../tree/main/public/gifs/shows.gif)
-![alt text](../../tree/main/public/gifs/movies.gif)
-![alt text](../../tree/main/public/gifs/signout.gif)
+![alt text](../../tree/main/public/img/gifs/castcrew.gif?raw=true)
+![alt text](../../tree/main/public/img/gifs/watchlist.gif?raw=true)
+![alt text](../../tree/main/public/img/gifs/shows.gif?raw=true)
+![alt text](../../tree/main/public/img/gifs/movies.gif?raw=true)
+![alt text](../../tree/main/public/img/gifs/signout.gif?raw=true)
 
 ## How to navigate this project
 * [Layout](../../tree/main/components/Layouts)
