@@ -1,8 +1,4 @@
 This is a React.js & Next.js project integrated with SASS, local storage, and movie database API. It provide a pixel-perfect match with the mockup design and allow users create a user, login, search for shows or movies based on genre. It also allows users to add movies to their watch later list and view the cast and directors of any movie.
-![](../../tree/main/castcrew.gif?raw=true)
-![](../../tree/main/castcrew.gif?raw=true)
-![alt text](../../tree/main/watchlist.gif)
-![alt text](../../tree/main/signout.gif?raw=true)
 
 Data for all the movies: https://api.themoviedb.org/
 ## How I worked on this project
@@ -14,11 +10,19 @@ Data for all the movies: https://api.themoviedb.org/
 * yarn dev or npm run dev starts the server You should be able to access the app through http://localhost:3000
 
 # Demo 
-![](../../tree/main/castcrew.gif?raw=true)
-![hi](signout.gif)
-![](../../tree/main/castcrew.gif?raw=true)
-![alt text](../../tree/main/watchlist.gif)
-![alt text](../../tree/main/signout.gif?raw=true)
+## Create User
+![Create User](create.gif)
+* Create user page
+## Login User
+![](login.gif)
+## Show Cast
+![](castcrew.gif)
+## Watch List
+![](watchlist.gif)
+## Sign Out
+![](signout.gif)
+
+
 
 ## How to navigate this project
 * [Layout](../../tree/main/components/Layouts)
