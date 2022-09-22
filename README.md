@@ -12,13 +12,23 @@ Data for all the movies: https://api.themoviedb.org/
 # Demo 
 ## Create User
 ![Create User](create.gif)
-* Create user page
 ## Login User
 ![](login.gif)
+## Search Movies
+![](searc_Trim.gif)
+* Search for any movie or show and it's displayed dynamically.
 ## Show Cast
 ![](castcrew.gif)
+* A list of all cast and directors for each movie are displayed dynamically.
 ## Watch List
 ![](watchlist.gif)
+* Add movies into your watch list, or remove them from your watch list.
+## Movie List
+![](movies.webm)
+* All movies for any genre.
+## Show List
+![](shows.webm)
+* All shows for any genre.
 ## Sign Out
 ![](signout.gif)
 
