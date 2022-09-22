@@ -12,7 +12,7 @@ Data for all the movies: https://api.themoviedb.org/
 # Demo 
 ![Create](gifs/create.gif)
 ![alt text](../../tree/main/public/img/gifs/castcrew.gif?raw=true)
-![alt text](../../tree/main/public/img/gifs/watchlist.gif?raw=true)
+![alt text](../../tree/main/public/img/gifs/watchlist?raw=true)
 ![alt text](../../tree/main/public/img/gifs/shows.gif?raw=true)
 ![alt text](../../tree/main/public/img/gifs/movies.gif?raw=true)
 ![alt text](../../tree/main/public/img/gifs/signout.gif?raw=true)
