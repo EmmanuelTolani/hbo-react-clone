@@ -24,7 +24,7 @@ Data for all the movies: https://api.themoviedb.org/
 ![](watchlist.gif)
 * Add movies into your watch list, or remove them from your watch list.
 ## Movie List
-![](movies_Trim.gif)
+![](movies-Trim.gif)
 * All movies for any genre.
 ## Show List
 ![](shows-Trim.gif)
