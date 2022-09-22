@@ -15,7 +15,7 @@ Data for all the movies: https://api.themoviedb.org/
 ## Login User
 ![](login.gif)
 ## Search Movies
-![](searc_Trim.gif)
+![](search_Trim.gif)
 * Search for any movie or show and it's displayed dynamically.
 ## Show Cast
 ![](castcrew.gif)
