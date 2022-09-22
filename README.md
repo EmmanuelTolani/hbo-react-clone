@@ -10,7 +10,7 @@ Data for all the movies: https://api.themoviedb.org/
 * yarn dev or npm run dev starts the server You should be able to access the app through http://localhost:3000
 
 # Demo 
-![Create](../../tree/main/public/img/home.png)
+![Create](../../tree/main/public/img/home.png?raw=true)
 ![Create](../../tree/main/public/img/gifs/castcrew.gif?raw=true)
 ![alt text](../../tree/main/public/img/gifs/castcrew.gif?raw=true)
 ![alt text](../../tree/main/public/img/gifs/watchlist?raw=true)
