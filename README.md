@@ -1,7 +1,26 @@
-The next section "How to navigate this project" points me to the most important parts of the application. If the code behind these links looks OK, I'm ready to give this candidate a go.
+This is a React.js & Next.js project integrated with SASS, local storage, and movie database API. It provide a pixel-perfect match with the mockup design and allow users create a user, login, search for shows or movies based on genre. It also allows users to add movies to their watch later list and view the cast and directors of any movie.
 
-The section "Why I built the project this way" reveals information about the reasoning behind some technical decisions. That's really great because it allows the reviewer to tap into your thought process.
+Data for all the movies: https://api.themoviedb.org/
+## How I worked on this project
+* I divided the layout into several smaller user interface components.
+* I worked with tasks on a Kanban board to keep the project organized.
 
-A final section "If I had more time I would change this" shows that you can take a step back and self-reflect. Very important for working in a team.
+## Available Scripts
+* yarn or npm install installs all dependencies
+* yarn dev or npm run dev starts the server You should be able to access the app through http://localhost:3000
 
-Available Scripts 
+# Demo 
+
+
+## How to navigate this project
+* [Layout](../../tree/main/components/Layouts)
+* [UI components with Logic and styles](../../tree/main/components/UI)
+* [GlobalState to provide logic for the whole application](../../tree/main/components/HBOProvider.js)
+* [Slug Url implementation](../../tree/main/pages/[mediaType])
+  
+## Why I built this project this way 
+* I decided to create the app with Next.js because of it's routing, fast refresh, and static file serving.
+
+## If i had more time I would change
+
+
