@@ -10,7 +10,12 @@ Data for all the movies: https://api.themoviedb.org/
 * yarn dev or npm run dev starts the server You should be able to access the app through http://localhost:3000
 
 # Demo 
-
+* ![alt text](../../tree/main/public/gifs/create.gif)
+* ![alt text](../../tree/main/public/gifs/castcrew.gif)
+* ![alt text](../../tree/main/public/gifs/watchlist.gif)
+* ![alt text](../../tree/main/public/gifs/shows.gif)
+* ![alt text](../../tree/main/public/gifs/movies.gif)
+* ![alt text](../../tree/main/public/gifs/signout.gif)
 
 ## How to navigate this project
 * [Layout](../../tree/main/components/Layouts)
