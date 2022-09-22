@@ -11,7 +11,7 @@ Data for all the movies: https://api.themoviedb.org/
 
 # Demo 
 ![Create](../../tree/main/public/img/home.png?raw=true)
-![Create](../../tree/main/public/img/gifs/castcrew.gif?raw=true)
+![Create](../../tree/main/castcrew.gif?raw=true)
 ![alt text](../../tree/main/public/img/gifs/castcrew.gif?raw=true)
 ![alt text](../../tree/main/public/img/gifs/watchlist?raw=true)
 ![alt text](../../tree/main/public/img/gifs/shows.gif?raw=true)
