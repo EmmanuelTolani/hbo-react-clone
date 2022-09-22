@@ -15,7 +15,7 @@ Data for all the movies: https://api.themoviedb.org/
 
 # Demo 
 ![](../../tree/main/castcrew.gif?raw=true)
-![hi](../../tree/main)
+![hi](signout.gif)
 ![](../../tree/main/castcrew.gif?raw=true)
 ![alt text](../../tree/main/watchlist.gif)
 ![alt text](../../tree/main/signout.gif?raw=true)
