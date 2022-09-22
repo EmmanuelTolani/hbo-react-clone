@@ -24,10 +24,10 @@ Data for all the movies: https://api.themoviedb.org/
 ![](watchlist.gif)
 * Add movies into your watch list, or remove them from your watch list.
 ## Movie List
-![](movies.webm)
+![](movies_Trim.gif)
 * All movies for any genre.
 ## Show List
-![](shows.webm)
+![](shows-Trim.gif)
 * All shows for any genre.
 ## Sign Out
 ![](signout.gif)
