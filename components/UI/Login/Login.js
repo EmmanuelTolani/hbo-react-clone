@@ -51,7 +51,7 @@ const Login = () => {
   };
 
   return (
-    <div className="login-user">
+    <div className={`login-user`}>
       <div className="login-user__top">
         <div className="login-user__logo" />
         <span className="login-user__title">Who is watching?</span>

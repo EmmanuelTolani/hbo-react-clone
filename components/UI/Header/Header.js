@@ -60,7 +60,7 @@ const Header = (props) => {
           src="https://img.freepik.com/free-vector/cute-cartoon-creature-blue-color-with-horns-feel-dizzy-illustration_1284-64077.jpg?t=st=1663780565~exp=1663781165~hmac=b10ffc9705ef61ab5a107d8ba65ff790e14568fba51fad6a3d80e06877e1fa47"
           alt=""
         />
-        <div className="top-header__user-name"></div>
+        <div className="top-header__user-name">{ls.user}</div>
       </div>
       <Account />
       <SearchModal />

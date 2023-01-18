@@ -9,12 +9,16 @@ export function useStateContext() {
 
 export function HBOProvider({ children }) {
   const [user, setUser] = useState("");
+  const [theme, setTheme] = useState("purple");
   // const [userImg, setUserImg] = useState("");
   const defaultUserImg =
     "https://img.freepik.com/free-vector/cute-cartoon-creature-blue-color-with-horns-feel-dizzy-illustration_1284-64077.jpg?t=st=1663780565~exp=1663781165~hmac=b10ffc9705ef61ab5a107d8ba65ff790e14568fba51fad6a3d80e06877e1fa47";
   const createUserAction = (event) => {
     setUser(event.target.value);
     // console.log(user);
+  };
+  const setThemeAction = (event) => {
+    setTheme(event.target.dataset.color);
   };
   // const selectUserImgAction = (event) => {
   //   setUserImg
@@ -47,6 +51,8 @@ export function HBOProvider({ children }) {
     <StateContext.Provider
       value={{
         user,
+        theme,
+        setThemeAction,
         createUserAction,
         defaultUserImg,
         sideNavOpen,
