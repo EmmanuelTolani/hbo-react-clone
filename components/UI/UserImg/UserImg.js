@@ -11,7 +11,6 @@ export default function UserImg() {
           className="create-user__user-img"
           src="https://img.freepik.com/free-vector/cute-cartoon-creature-blue-color-with-horns-feel-dizzy-illustration_1284-64077.jpg?t=st=1663780565~exp=1663781165~hmac=b10ffc9705ef61ab5a107d8ba65ff790e14568fba51fad6a3d80e06877e1fa47"
         />
-        <span>Select your Avatar</span>
       </div>
       <div className="img-grid">
         <div className="img-grid_container">
